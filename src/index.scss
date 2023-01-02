@@ -1,0 +1,86 @@
+#game {
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-header {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #d3d6da;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#dropdown-menu {
+    display: flex;
+    width: 100px;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.header-icon {
+    background-color: white;
+    border: none;
+}
+
+.header-icon:hover {
+    cursor: pointer;
+}
+
+#gameboard {
+    align-items: center;
+    display: inline-grid;
+    grid-template-columns: 62px 62px 62px 62px 62px;
+    grid-template-rows: 62px 62px 62px 62px 62px 62px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 80px 0px 60px 0px;
+}
+
+.square {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #d3d6da;
+}
+
+.keyboard-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.letter {
+    width: 43px
+}
+
+.keyboard-btn {
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    background-color: #d3d6da;
+    border: none;
+    border-radius: 5px;
+    height: 58px;
+    text-align: center;
+    margin: 3px 2.5px 2px 2.5px;
+}
+
+.keyboard-btn:hover {
+    cursor: pointer;
+}
+
+#enter {
+    width: 64.5px;
+}
+
+#delete {
+    width: 64.5px;
+}
